@@ -1,0 +1,54 @@
+.seven {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../assets/doctor.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+@media (max-width: 600px) and (max-height: 900px) {
+  .seven {
+    width: 100vw;
+    height: fit-content;
+  }
+  .seven-content {
+    position: relative !important;
+    top: auto !important;
+    right: auto !important;
+    transform: translateY(0) !important;
+    margin: auto;
+    /* top: 100px !important;
+    transform: translateY(0) !important;
+    right: auto !important;
+    left: auto !important; */
+  }
+}
+
+.seven-content {
+  position: absolute;
+  right: 10vw;
+  top: 50vh;
+  transform: translateY(-50%);
+  max-width: 500px;
+  padding: 30px;
+}
+
+.seven-content > p {
+  max-width: 90%;
+  margin: auto;
+}
+
+.seven-button {
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  background-color: blue;
+  margin: 20px auto;
+}
+
+.seven-content-heading {
+  max-width: 90%;
+  letter-spacing: normal;
+  margin: auto;
+}

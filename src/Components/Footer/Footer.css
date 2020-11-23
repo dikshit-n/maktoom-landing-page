@@ -1,0 +1,28 @@
+.footer * {
+  letter-spacing: normal !important;
+  color: white;
+  text-align: left;
+}
+
+.footer {
+  background-color: rgb(68, 65, 65);
+  width: 100%;
+}
+
+.maktoom-logo {
+  width: 150px;
+  height: 100px;
+  margin: auto;
+}
+
+.each-div-footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+@media (max-width: 991px) {
+  .footer * {
+    text-align: center !important;
+  }
+}

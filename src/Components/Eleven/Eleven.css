@@ -1,0 +1,20 @@
+.slider-controls {
+  width: 60px;
+  position: absolute;
+  top: -30px;
+  right: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.eleven {
+  padding: 10px 50px;
+}
+
+.slider-controls.control-1,
+.slider-controls.control-2 {
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+}

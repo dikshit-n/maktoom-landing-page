@@ -1,0 +1,56 @@
+.nine {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../assets/doctor-touching.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  text-align: left;
+}
+
+@media (max-width: 600px) and (max-height: 900px) {
+  .nine {
+    width: 100vw;
+    height: fit-content;
+  }
+  .nine-content {
+    position: relative !important;
+    top: auto !important;
+    right: auto !important;
+    transform: translateY(0) !important;
+    margin: auto;
+    /* top: 100px !important;
+    text-align: left;
+    transform: translateY(0) !important;
+    right: auto !important;
+    left: auto !important; */
+  }
+}
+
+.nine-content {
+  text-align: left;
+  position: absolute;
+  right: 0;
+  top: 50vh;
+  transform: translateY(-50%);
+  max-width: 600px;
+  padding: 30px 40px;
+}
+
+.nine-content > p {
+  text-align: left;
+  margin: auto;
+}
+
+.nine-button {
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  background-color: blue;
+  margin: 20px auto;
+}
+
+.nine-content-heading {
+  letter-spacing: normal;
+  margin: auto;
+}

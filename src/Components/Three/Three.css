@@ -1,0 +1,12 @@
+.three {
+  padding: 100px 50px;
+  background-color: blue;
+  font-size: 20px;
+  z-index: 1;
+}
+
+@media (max-width: 500px) {
+  .three {
+    padding: 50px 20px;
+  }
+}

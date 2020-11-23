@@ -1,0 +1,21 @@
+.digging {
+  background-image: url("../../assets/digging.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.digging-content {
+  background-color: rgb(255, 208, 0);
+  padding: 150px 50px !important;
+}
+
+@media (max-width: 992px) {
+  .digging {
+    height: 600px;
+  }
+}
+@media (max-width: 500px) {
+  .digging-content {
+    padding: 80px 20px !important;
+  }
+}

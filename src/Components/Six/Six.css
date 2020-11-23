@@ -1,0 +1,22 @@
+.six {
+  background-color: rgb(190, 188, 218);
+  padding: 100px 50px;
+}
+
+.six-heading {
+  max-width: 1200px;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  letter-spacing: 0px !important;
+}
+
+.small-divs-container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.each-small-div {
+  margin: 20px auto;
+  max-width: 300px;
+}
