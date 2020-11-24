@@ -9,19 +9,40 @@ import Ten from "./Components/Ten/Ten";
 import Eleven from "./Components/Eleven/Eleven";
 import Twelve from "./Components/Twelve/Twelve";
 import Footer from "./Components/Footer/Footer";
+import Nav from "./Components/Nav/Nav";
+import { useEffect } from "react";
+import MainLogo from "./assets/Logo-Main.png";
+import Two from "./Components/Two/Two";
 
 function App() {
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      const navBar = document.querySelector(".my-nav-bar");
+      if (window.scrollY > 10) {
+        navBar.style.background = "rgb(186, 183, 183)";
+      } else {
+        navBar.style.background = "transparent";
+      }
+    });
+  }, []);
+
   return (
     <div className="App">
+      <img src={MainLogo} className="my-main-logo" />
+      <div className="my-nav-bar">
+        <Nav />
+      </div>
+
       <One />
-      <Three />
-      <Five />
+      <Two />
       <Six />
+      <Five />
       <Seven />
+      <Three />
       <Nine />
       <Ten />
       <Eleven />
-      <Twelve />
+      {/* <Twelve /> */}
       <Footer />
     </div>
   );

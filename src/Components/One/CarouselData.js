@@ -1,33 +1,21 @@
-import Apple from "../../assets/Slider-images/apple.jpg";
-import Amazon from "../../assets/Slider-images/amazon.jpg";
-import Facebook from "../../assets/Slider-images/facebook.jpg";
-import Instagram from "../../assets/Slider-images/instagram.jpeg";
-import Microsoft from "../../assets/Slider-images/microsoft.png";
-import Samsung from "../../assets/Slider-images/samsung.png";
+import One from "../../assets/Slider-images/Slider-1.jpg";
+import Two from "../../assets/Slider-images/Slider-2.jpg";
+import Three from "../../assets/Slider-images/Slider-3.jpg";
+// import Instagram from "../../assets/Slider-images/instagram.jpeg";
+// import Microsoft from "../../assets/Slider-images/microsoft.png";
+// import Samsung from "../../assets/Slider-images/samsung.png";
 
 export const data = [
   {
-    src: Apple,
+    src: One,
     name: "",
   },
   {
-    src: Amazon,
+    src: Two,
     name: "",
   },
   {
-    src: Facebook,
-    name: "",
-  },
-  {
-    src: Instagram,
-    name: "",
-  },
-  {
-    src: Microsoft,
-    name: "",
-  },
-  {
-    src: Samsung,
+    src: Three,
     name: "",
   },
 ];

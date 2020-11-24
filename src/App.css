@@ -5,6 +5,35 @@
   letter-spacing: 2px;
 }
 
+@font-face {
+  font-family: Raleway;
+  src: url(./assets/fonts/Raleway-Light.ttf);
+}
+
+.my-main-logo {
+  width: 190px;
+  height: 120px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 100000000000000000;
+}
+
+@media (max-width: 600px) {
+  .my-main-logo {
+    width: 80px;
+    height: 50px;
+  }
+}
+
+.my-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000000000000000 !important;
+  transition: all 0.3 ease;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -12,6 +41,12 @@ html {
 .App {
   text-align: center;
   overflow-x: hidden;
+  font-family: Raleway;
+  position: relative;
+}
+
+.one-container {
+  position: relative;
 }
 
 .full-page-wrapper {
@@ -247,7 +282,7 @@ html {
 }
 
 .bg-yellow {
-  background-color: rgb(255, 217, 0);
+  background-color: #e6b41f;
 }
 
 .bg-blur {
@@ -488,7 +523,8 @@ input:disabled {
 
 .fa {
   padding: 10px;
-  font-size: 20px;
+  font-size: 15px;
+  transition: all 0.3s ease;
   width: fit-content;
   text-align: center;
   text-decoration: none;

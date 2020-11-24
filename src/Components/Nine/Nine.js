@@ -14,7 +14,7 @@ const Nine = (props) => {
           services that transform the administrative and operations of
           organizations of all sizes.
           <br />
-          <button className="nine-button yellow">Learn More</button>
+          <button className="nine-button bold white">LEARN MORE</button>
         </p>
       </div>
     </div>

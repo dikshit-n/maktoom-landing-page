@@ -1,16 +1,16 @@
-.digging {
-  background-image: url("../../assets/digging.jpg");
+.digging-2 {
+  background-image: url("../../assets/hand.jpg");
   background-size: cover;
   background-position: center;
+  height: 100%;
 }
 
 .digging-content {
-  background-color: rgb(255, 208, 0);
   padding: 150px 50px !important;
 }
 
 @media (max-width: 992px) {
-  .digging {
+  .digging-2 {
     height: 600px;
   }
 }

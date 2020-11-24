@@ -3,9 +3,11 @@ import { Col, Row } from "reactstrap";
 
 const Five = (props) => {
   return (
-    <div className="four">
+    <div className="four bg-yellow">
       <Row>
-        <Col lg="6" md="12" sm="12" xs="12" className="digging"></Col>
+        <Col lg="6" md="12" sm="12" xs="12" style={{ padding: 0 }}>
+          <div className="digging-2"></div>
+        </Col>
         <Col
           lg="6"
           md="12"
@@ -13,27 +15,20 @@ const Five = (props) => {
           xs="12"
           className="digging-content flex-column text-left"
         >
-          <div className="small">OUR SKILLS</div>
+          <div className="small white">OUR SKILLS</div>
           <br />
-          <h1 className="blue">
+          <h2 className="blue">
             <span className="bold">
-              We’re constantly improving our skills to{" "}
+              We’re constantly improving
+              <br />{" "}
             </span>
-            fulfill projects of any level
-          </h1>
+            our skills to fulfill projects of any level
+          </h2>
           <br />
-          <div className="small">
+          <div className="small white">
             Our network and digital solutions help our clients to scale faster –
             allowing operators, vendors, and contractors to work together
-            seamlessly while reducing costs and risk. Maktoom has expanded into
-            many other fields of operation that has led to the present status as
-            a wide spectru, of Construction & Maintenance Services. Our services
-            ensure all of the clients requirement are covered from small to
-            large projects. We engaged in offering Quality Contracting Services
-            with a competitive edge. Our mission is to be the first choice of
-            all our clients. We are always committed towards the quality and
-            safety of the work and has proven track record of successful and
-            professionaly executing large contracts of all type
+            seamlessly while reducing costs and risk.
           </div>
         </Col>
       </Row>

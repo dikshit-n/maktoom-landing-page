@@ -1,5 +1,5 @@
 .six {
-  background-color: rgb(190, 188, 218);
+  background-color: rgb(247, 247, 247);
   padding: 100px 50px;
 }
 
@@ -19,4 +19,5 @@
 .each-small-div {
   margin: 20px auto;
   max-width: 300px;
+  padding: 20px;
 }

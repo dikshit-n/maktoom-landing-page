@@ -1,16 +1,20 @@
 .footer * {
-  letter-spacing: normal !important;
-  color: white;
+  letter-spacing: 1px !important;
+  color: rgba(147, 147, 147, 0.776);
   text-align: left;
 }
 
 .footer {
-  background-color: rgb(68, 65, 65);
+  background-color: rgb(39, 38, 38);
   width: 100%;
 }
 
+.footer .yellow {
+  color: rgb(255, 225, 0) !important;
+}
+
 .maktoom-logo {
-  width: 150px;
+  width: 180px;
   height: 100px;
   margin: auto;
 }
@@ -25,4 +29,20 @@
   .footer * {
     text-align: center !important;
   }
+  .adjust-my-margin {
+    margin: auto !important;
+  }
+  .each-div-footer-last {
+    justify-content: center !important;
+  }
+}
+
+.each-div-footer-last {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.provider {
+  padding: 40px 20px;
 }

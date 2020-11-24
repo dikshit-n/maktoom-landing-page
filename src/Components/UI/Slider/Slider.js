@@ -12,7 +12,7 @@ const Slider = (props) => {
     uniqueVariableName.set(props.id, document.getElementById(props.id));
     uniqueVariableName.set(props.id + "scrollCopy");
     uniqueVariableName.set(props.id + "timer");
-    uniqueVariableName.set(props.id + "scrollArray", [200, 200, -400]);
+    uniqueVariableName.set(props.id + "scrollArray", [800, 800, -1600]);
     // uniqueVariableName.set(props.id + "total", 0);
     // uniqueVariableName.set(props.id + "dummy", true);
     // uniqueVariableName.set(props.id + "scrollArray", [

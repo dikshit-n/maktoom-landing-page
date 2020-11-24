@@ -11,12 +11,12 @@ const Eleven = (props) => {
       <Slider
         data={data}
         carousel
-        id="100"
+        id={100}
         controlsClassName="slider-controls"
         eachImageStyle={{
           borderRadius: "10px",
-          width: "250px",
-          height: "150px",
+          width: "80vw",
+          height: "100px",
           boxShadow: "none",
         }}
       />

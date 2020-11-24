@@ -1,0 +1,8 @@
+.search-icon {
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../assets/search-icon.png");
+  margin-top: -2px;
+}

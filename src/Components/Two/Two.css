@@ -1,0 +1,23 @@
+.each-two-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+}
+
+.two-1 {
+  background-image: url("../../assets/two-1.jpg");
+  background-size: 100px 100px;
+}
+
+.two-2 {
+  background-image: url("../../assets/two-2.png");
+  background-size: 170px 100px;
+}
+.two-3 {
+  background-image: url("../../assets/two-3.png");
+  background-size: 170px 100px;
+}
+.two-4 {
+  background-image: url("../../assets/two-4.png");
+  background-size: 80px 100px;
+}

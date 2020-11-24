@@ -1,6 +1,5 @@
 .three {
-  padding: 100px 50px;
-  background-color: blue;
+  padding: 100px 10px;
   font-size: 20px;
   z-index: 1;
 }
@@ -9,4 +8,35 @@
   .three {
     padding: 50px 20px;
   }
+}
+
+@media (max-width: 992px) {
+  .three-left {
+    text-align: center !important;
+  }
+  .digging {
+    display: none;
+  }
+}
+
+.digging {
+  background-image: url("../../assets/digging.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.three-left {
+  text-align: right;
+}
+
+.three-left > h6 {
+  line-height: 25px;
+}
+
+.three-bg {
+  background: blue;
+}
+.three-row {
+  min-height: 600px;
 }

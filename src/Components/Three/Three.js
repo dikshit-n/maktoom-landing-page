@@ -1,16 +1,28 @@
+import { Col, Row } from "reactstrap";
 import "./Three.css";
 
 const Three = (props) => {
   return (
-    <div className="three white">
-      Maktoom Trading & Contracting Company LLC is a leading service provider
-      for Artificial Lift System which includes and not limited to Reciprocating
-      Rod Pump Services, Progressive Cavity Pump Services, Electrical
-      Submersible Pump Services, Rotaflex Services in major oil blocks of Oman
-      and in Middle East. Working in more than 10 blocks since more than 10
-      years with multi-national skilled work force, Maktoom supplies the
-      industry’s most comprehensive range of product and services, from
-      maintenance to construction work.
+    <div className="three-bg white">
+      <Row className="three-row">
+        <Col lg="6" md="12" sm="12" xs="12" className="three-left three">
+          <h2 className="bold white">
+            <br />
+            <br />
+            Reinforcing The Future
+          </h2>
+          <h6 className="white">
+            We are one of the swiftest expanding business group in the Middle
+            East. With a firm base backed by a professional management setup and
+            customer friendly work ethics, we have established our mark in
+            industrial segments, healthcare and technology. We stands for
+            quality, efficiency and an ethical approach towards the commitments.
+          </h6>
+        </Col>
+        <Col lg="6" md="12" sm="12" xs="12">
+          <div className="digging"></div>
+        </Col>
+      </Row>
     </div>
   );
 };

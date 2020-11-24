@@ -17,7 +17,7 @@
 .my-slide::before {
   display: block;
   content: "";
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.5); */
   width: 100%;
   height: 100%;
   top: 0;
@@ -53,6 +53,7 @@
   margin: 0 5px;
   cursor: pointer;
   color: white;
+  transition: all 0.5s ease;
 }
 
 .dots {
@@ -95,6 +96,7 @@
 .my-prev-button:disabled,
 .my-next-button:disabled {
   opacity: 0.5;
+  color: white !important;
 }
 
 .my-prev-button:hover,

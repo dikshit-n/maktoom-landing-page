@@ -17,7 +17,7 @@ const Seven = (props) => {
           a result of these efforts, we are sure the group will be in a unique
           position to exponentially increase its healthcare cover.
         </p>
-        <button className="seven-button yellow">Learn More</button>
+        <button className="seven-button white bold">LEARN MORE</button>
       </div>
     </div>
   );
