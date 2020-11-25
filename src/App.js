@@ -32,7 +32,16 @@ function App() {
       <div className="my-nav-bar">
         <Nav />
       </div>
-
+      <div className="intro bg-yellow">
+        <p className="white small">
+          OIL FIELD OPERATIONS, HEALTHCARE & TECHNOLOGY
+        </p>
+        <br />
+        <h1 className="blue bold ideas">
+          Turning Ideas
+          <br /> Into Innovation
+        </h1>
+      </div>
       <One />
       <Two />
       <Six />

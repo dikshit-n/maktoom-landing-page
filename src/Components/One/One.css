@@ -10,27 +10,4 @@
     width: 100vw;
     height: 300px;
   }
-  .intro {
-    top: 100px;
-  }
-}
-
-.intro {
-  position: absolute;
-  top: 50vh;
-  transform: translateX(-50vh);
-  left: 0;
-  width: 850px;
-  text-align: left;
-  padding: 20px 20px;
-  z-index: 1000000000;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: flex-end;
-}
-
-.ideas {
-  font-weight: bolder;
-  padding-right: 30px;
 }

@@ -15,7 +15,7 @@ const Five = (props) => {
           xs="12"
           className="digging-content flex-column text-left"
         >
-          <div className="small white">OUR SKILLS</div>
+          <div className="small white">OUR SKILLS.</div>
           <br />
           <h2 className="blue">
             <span className="bold">

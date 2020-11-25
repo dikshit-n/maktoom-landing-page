@@ -4,7 +4,7 @@ import "./Two.css";
 const Two = (props) => {
   return (
     <div className="two">
-      <Row>
+      <Row className="flex-center">
         <Col lg="3" md="3" sm="6" xs="6">
           <div className="each-two-image two-1"></div>
         </Col>
